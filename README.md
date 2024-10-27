@@ -12,15 +12,15 @@ This is a sample next js project for coding test.
   - **Styling**: Apply minimal styling to ensure the components are visually distinguishable and responsive.
 
 ## Project Outline
-1. **User Profile Component** (UserProfile.js):
+1. **User Profile Component** (UserProfile.tsx):
 	- **Props**: name, age, occupation
 	- **Functionality**: Display user information in a card layout.
 	- **Styling Requirement**: Style the component with basic CSS (e.g., a border, padding, and background color).
-2. **User List Component** (UserList.js):
+2. **User List Component** (UserList.tsx):
 	- **Props**: users (an array of user objects)
 	- **Functionality**: Display each user’s name in a list format. When a user’s name is clicked, display that user's details in the UserProfile component.
 	- **Styling Requirement**: Style the list with simple CSS (e.g., add hover effects for each list item).
-3. **Main Page** (index.js):
+3. **Main Page** (page.tsx):
 	- Import and use the UserList and UserProfile components.
 	- Provide an array of sample users (hardcoded or generated).
 	- Implement basic state management to display the selected user's details in the UserProfile component.
